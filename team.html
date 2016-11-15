@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<title>Dodd & Vaughton - The Complete Conveyancing Service</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<!-- Side Navigation -->
+<!--<nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none" id="mySidenav">
+  <h1 class="w3-xxxlarge w3-text-teal">Side Navigation</h1>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-xxxlarge w3-text-theme">Close <i class="fa fa-remove"></i></a>
+  <a href="javascript:void(0)">Link 1</a>
+  <a href="javascript:void(0)">Link 2</a>
+  <a href="javascript:void(0)">Link 3</a>
+  <a href="javascript:void(0)">Link 4</a>
+  <a href="javascript:void(0)">Link 5</a>
+</nav>-->
+
+<!-- Header -->
+<header class="w3-container w3-padding" id="myHeader" style="background-color:#0079aa;color:#fff;">
+  <!--<i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-opennav"></i>-->
+  <div class="w3-center">
+	<h1 class="w3-xxxlarge">Dodd & Vaughton</h1>  
+	<h4 class="w3-animate-bottom">The Complete Conveyancing Service</h4>	
+	<img src="img/home.gif" alt="dodd and vaughton icon" style="max-width:100%;position:relative;bottom:0px;" id="banner-image"  />	
+  </div>
+</header>
+
+  <ul class="w3-navbar" style="background-color:#bcdaec;position:static">
+	  <li><a class="w3-padding-16" href="index.html">Home</a></li>
+	  <li><a class="w3-dark-grey w3-padding-16" href="team.html">Meet the Team</a></li>
+	  <li><a class="w3-padding-16" href="quotes.html">Quotes</a></li>
+	  <li><a class="w3-padding-16" href="contact.html">Contact Us</a></li>
+  </ul>
+
+<!--<div style="width:100%;background-image: url('img/background.jpg');background-size:100% 100%">-->
+	<div class="w3-row-padding w3-margin-top">			
+		<div class="w3-third w3-padding">
+			<img src="img/teamplaceholder.jpg" alt="Meet the Team photo goes here" style="width:100%"/>
+		</div>	
+		<div class="w3-twothird">
+			<h3>Your Conveyancer</h3>
+			<p>Information on being assigned a named contact here...</p>
+		</div>		
+	</div>
+
+	<div class="w3-row-padding w3-center w3-margin-top">
+		<div class="w3-quarter">
+			<div class="w3-card-4 team-leader" onclick="showTeam(this, 1)">
+				<img src="img/personplaceholder.png" alt="Ian Dodd" style="width:100%;max-width:200px;">
+				<div class="w3-container">
+					<p>Ian Dodd</p>
+				</div>
+			</div>
+		</div>
+		<div class="w3-quarter">
+			<div class="w3-card-4 team-leader" onclick="showTeam(this, 2)">
+				<img src="img/personplaceholder.png" alt="Philip Vaughton" style="width:100%;max-width:200px;">
+				<div class="w3-container">
+					<p>Philip Vaughton</p>
+				</div>
+			</div>
+		</div>
+		<div class="w3-quarter">
+			<div class="w3-card-4 team-leader" onclick="showTeam(this, 3)">
+				<img src="img/personplaceholder.png" alt="Alison Gill" style="width:100%;max-width:200px;">
+				<div class="w3-container">
+					<p>Alison Gill</p>
+				</div>
+			</div>
+		</div>
+		<div class="w3-quarter">
+			<div class="w3-card-4 team-leader" onclick="showTeam(this, 4)">
+				<img src="img/personplaceholder.png" alt="Dan" style="width:100%;max-width:200px;">
+				<div class="w3-container">
+					<p>Dan</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="w3-row-padding w3-margin-top w3-center team-member" style="display:none" id="leader_1">
+		<div class="w3-container w3-center w3-quarter">
+			<div class="w3-card-4">
+				<img src="img/personplaceholder.png" alt="Moira" style="width:100%;max-width:200px;">
+				<div class="w3-container">
+					<p>Moira</p>
+				</div>
+			</div>		
+		</div>	
+		<div class="w3-container w3-center w3-quarter">
+			<p>You could put some descriptive text here if you want.</p>
+		</div>
+	</div>
+	<div class="w3-row-padding w3-margin-top w3-center team-member" style="display:none" id="leader_3">
+		<div class="w3-container w3-center w3-quarter">
+			<div class="w3-card-4">
+				<img src="img/personplaceholder.png" alt="Tom" style="width:100%;max-width:200px;">
+				<div class="w3-container">
+					<p>Tom</p>
+				</div>
+			</div>		
+		</div>	
+		<div class="w3-container w3-center w3-quarter">
+			<p>You could put some descriptive text here if you want.</p>
+		</div>
+	</div>
+	<div class="w3-row-padding w3-margin-top w3-center team-member" style="display:none" id="leader_2">
+		<div class="w3-container w3-center w3-quarter">
+			<div class="w3-card-4">
+				<img src="img/personplaceholder.png" alt="Helen" style="width:100%;max-width:200px;">
+				<div class="w3-container">
+					<p>Helen</p>
+				</div>
+			</div>		
+		</div>	
+		<div class="w3-container w3-center w3-quarter">
+			<p>You could put some descriptive text here if you want.</p>
+		</div>
+	</div>
+	<div class="w3-row-padding w3-margin-top w3-center team-member" style="display:none" id="leader_4">
+		<div class="w3-container w3-center w3-quarter">
+			<div class="w3-card-4">
+				<img src="img/personplaceholder.png" alt="Someone" style="width:100%;max-width:200px;">
+				<div class="w3-container">
+					<p>Another Person Who I Haven't Met (sorry)</p>
+				</div>
+			</div>		
+		</div>	
+		<div class="w3-container w3-center w3-quarter">
+			<p>You could put some descriptive text here if you want.</p>
+		</div>
+	</div>
+<!--</div>-->
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-16 w3-margin-top" style="background-color:#0079aa;color:#fff;">
+  <p>Regulated by the <a href="http://www.theclc.gov.uk/" target="_blank">Council for Licensed Conveyancers</a></p>
+  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge"><i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+  <p>
+	Mid Beds Conveyancing Services Limited (Registration No. 5200108) trading as "Dodd & Vaughton"<br/>
+	5 & 6 Station Square<br/>
+	Flitwick<br/>
+	Bedfordshire<br/>
+	MK45 1DP
+  </p>
+</footer>
+<style type="text/css">
+	.team-leader:hover {
+		cursor:pointer;
+		box-shadow: 0px 8px 16px 0px rgba(0,121,174,0.2), 0px 6px 20px 0px rgba(0,121,174,0.19) !important
+		
+	}
+</style>
+<!-- Script for Sidenav, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+
+
+function showTeam(sender, leaderId) {
+	var members = document.getElementsByClassName("team-member");
+	for (i = 0; i < members.length; i++) {
+		members[i].style.display = "none";
+	}
+	var y = document.getElementById("leader_" + leaderId);
+	y.style.display = "block";
+	window.scroll(0, findPosition(y));
+}
+
+function findPosition(obj) {
+	var curtop = 0;
+	if (obj.offsetParent) {
+		do {
+			curtop += obj.offsetTop;
+		} while (obj = obj.offsetParent);
+		return curtop;
+	}
+}
+
+</script>
+
+</body>
+</html>
+

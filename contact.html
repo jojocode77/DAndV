@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<title>Dodd & Vaughton - The Complete Conveyancing Service</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+
+<!-- Header -->
+<header class="w3-container w3-padding" id="myHeader" style="background-color:#0079aa;color:#fff;">
+  <div class="w3-center">
+	<h1 class="w3-xxxlarge">Dodd & Vaughton</h1>  
+	<h4 class="w3-animate-bottom">The Complete Conveyancing Service</h4>	
+	<img src="img/home.gif" alt="dodd and vaughton icon" style="max-width:100%;position:relative;bottom:0px;" id="banner-image"  />	
+  </div>
+</header>
+
+  <ul class="w3-navbar" style="background-color:#bcdaec;position:static">
+	  <li><a class="w3-padding-16" href="index.html">Home</a></li>
+	  <li><a class="w3-padding-16" href="team.html">Meet the Team</a></li>
+	  <li><a class="w3-padding-16" href="quotes.html">Quotes</a></li>
+	  <li><a class="w3-dark-grey w3-padding-16" href="contact.html">Contact Us</a></li>
+  </ul>
+
+<!--<div style="width:100%;background-image: url('img/background.jpg');background-size:100% 100%">-->
+<div class="w3-row-padding">
+	<div class="w3-half w3-padding">
+		<div class="w3-padding" id="form-submitted" style="display:none">
+			<p>Your form has been submitted (it hasn't).</p>
+		</div>
+		<form class="w3-container w3-card-4">			
+			<div class="w3-group">
+				<input class="w3-input" type="text" required>
+				<label class="w3-label w3-validate">Name</label>
+			</div>
+			<div class="w3-group">
+				<input class="w3-input" type="email" required>
+				<label class="w3-label w3-validate">Email Address</label>
+			</div>
+			<div class="w3-group">
+				<input class="w3-input" type="note" required>
+				<label class="w3-label w3-validate">Your message</label>
+			</div>			
+			<div class="w3-padding-bottom">
+				<input type="button" value="Send" class="w3-btn" style="background-color:#616161" onclick="sendForm()"/>
+			</div>
+		</form>
+	</div>
+	<div class="w3-half w3-padding">
+		<p>Some text here explaining what happens when they fill this information in.</p>
+	</div>
+</div>
+	
+<!--</div>-->
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-16 w3-margin-top" style="background-color:#0079aa;color:#fff;">
+  <p>Regulated by the <a href="http://www.theclc.gov.uk/" target="_blank">Council for Licensed Conveyancers</a></p>
+  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge"><i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+  <p>
+	Mid Beds Conveyancing Services Limited (Registration No. 5200108) trading as "Dodd & Vaughton"<br/>
+	5 & 6 Station Square<br/>
+	Flitwick<br/>
+	Bedfordshire<br/>
+	MK45 1DP
+  </p>
+</footer>
+
+<!-- Script for Sidenav, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+function sendForm() {
+	alert('If valid, the form will be submitted to D&V');
+	document.getElementById("form-submitted").style.display = "block";	
+	return false;
+}
+
+
+</script>
+
+</body>
+</html>
+
