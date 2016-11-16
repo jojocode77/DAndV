@@ -8,55 +8,45 @@
 <link rel="stylesheet" href="css/dv.css">
 <body>
 
-
 <!-- Header -->
 <header class="w3-padding-top" id="myHeader" style="background-color:#0079aa;">
-  <!--<i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-opennav"></i>-->
   <div>
 	  <div class="w3-center w3-padding-bottom" style="color:#fff;background-image:url('img/house-trans.png');background-repeat:no-repeat;background-position:right top;background-size:contain;">
 		<h1 class="w3-xxxlarge" style="text-shadow: 0 0 4px black">Dodd & Vaughton</h1>  
 		<h4 style="text-shadow: 0 0 4px black">The Complete Conveyancing Service</h4>
-	<!--<img src="img/home.gif" alt="dodd and vaughton icon" style="max-width:100%;position:relative;right:0px;" id="banner-image"  />	-->	
 	  </div>
 	  <ul class="w3-navbar" style="background-color:#bcdaec;">
-		  <li><a class="w3-padding-16" href="index.html">Home</a></li>
+		  <li><a class="w3-dark-grey w3-padding-16" href="index.html">Home</a></li>
 		  <li><a class="w3-padding-16" href="team.html">Meet the Team</a></li>
 		  <li><a class="w3-padding-16" href="quotes.html">Quotes</a></li>
-		  <li><a class="w3-padding-16" href="testimonials.html">Testimonials</a></li>
-		  <li><a class="w3-dark-grey w3-padding-16" href="javascript:void(0)">Contact Us</a></li>
+		  <li><a class="w3-padding-16" href="javascript:void(0)">Testimonials</a></li>
+		  <li><a class="w3-padding-16" href="contact.html">Contact Us</a></li>
 	  </ul>
   </div>
-</header>
+</header>  
 
 <!--<div style="width:100%;background-image: url('img/background.jpg');background-size:100% 100%">-->
-<div class="w3-row-padding">
-	<div class="w3-half w3-padding">
-		<div class="w3-padding" id="form-submitted" style="display:none">
-			<p>Your form has been submitted (it hasn't).</p>
+	<div class="w3-row-padding w3-margin-top">
+		<div class="w3-quarter">
+		    <div class="w3-panel w3-card-4" >
+			    <span style="font-size:150px;line-height:0.6em;opacity:0.2">&#10077;</span>
+				<p class="w3-xlarge" style="margin-top:-40px">
+					<i>Thank you so much for keeping me calm during a very stressful move!</i>
+				</p>
+				<p>A Very Happy Customer</p>
+			</div>		
 		</div>
-		<form class="w3-container w3-card-4">			
-			<div class="w3-group">
-				<input class="w3-input" type="text" required>
-				<label class="w3-label w3-validate">Name</label>
+		<div class="w3-quarter">
+		
+			<div class="w3-panel w3-card-4" >
+				<span style="font-size:150px;line-height:0.6em;opacity:0.2">&#10077;</span>
+				<p class="w3-xlarge" style="margin-top:-40px">
+					<i>Tom explained everything clearly, and I only heard him swear under his breath 4 times.</i>
+				</p>
+				<p>Anon</p>		
 			</div>
-			<div class="w3-group">
-				<input class="w3-input" type="email" required>
-				<label class="w3-label w3-validate">Email Address</label>
-			</div>
-			<div class="w3-group">
-				<input class="w3-input" type="note" required>
-				<label class="w3-label w3-validate">Your message</label>
-			</div>			
-			<div class="w3-padding-bottom">
-				<input type="button" value="Send" class="w3-btn" style="background-color:#616161" onclick="sendForm()"/>
-			</div>
-		</form>
-	</div>
-	<div class="w3-half w3-padding">
-		<p>Some text here explaining what happens when they fill this information in.</p>
-	</div>
-</div>
-	
+		</div>
+	</div>	
 <!--</div>-->
 
 
@@ -77,12 +67,6 @@
 
 <!-- Script for Sidenav, Tabs, Accordions, Progress bars and slideshows -->
 <script>
-function sendForm() {
-	alert('If valid, the form will be submitted to D&V');
-	document.getElementById("form-submitted").style.display = "block";	
-	return false;
-}
-
 
 </script>
 
