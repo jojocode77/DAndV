@@ -2,7 +2,7 @@
 <html>
 <title>Dodd & Vaughton - The Complete Conveyancing Service</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://use.fontawesome.com/f0a8f5ebfa.js"></script>
+<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="css/w3-theme-black.css">
 <link rel="stylesheet" href="css/dv.css">
@@ -56,13 +56,24 @@
 			<div class="w3-group">
 			<p>We can make these two fields below show/hide conditionally based on selection above</p>
 			</div>
-			<div class="w3-group" id="saleprice">
-				<input class="w3-input" type="text" required>
-				<label class="w3-label w3-validate">Sale Price</label>
+			<div class="w3-group w3-row" id="saleprice">
+				<div class="w3-col" style="width:25px">
+					<i class="fa fa-gbp w3-text-theme" style="font-size:20px;padding-top:10px;"></i>
+				</div>
+				<div class="w3-rest">
+					<input class="w3-input" type="number" required>
+					<label class="w3-label w3-validate">Sale Price</label>
+				</div>				
 			</div>
-			<div class="w3-group" id="purchaseprice">
-				<input class="w3-input" type="text" required>
-				<label class="w3-label w3-validate">Purchase Price</label>
+			
+			<div class="w3-group w3-row" id="purchaseprice">
+				<div class="w3-col" style="width:25px">
+					<i class="fa fa-gbp w3-text-theme" style="font-size:20px;padding-top:10px;"></i>
+				</div>
+				<div class="w3-rest">
+					<input class="w3-input" type="number" required>
+					<label class="w3-label w3-validate">Purchase Price</label>
+				</div>				
 			</div>
 			<div class="w3-padding-bottom">
 				<input type="button" value="Send" class="w3-btn" style="background-color:#616161" onclick="sendForm()"/>
